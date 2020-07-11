@@ -1,0 +1,749 @@
+html,body,div {
+  margin: 0px ;
+  box-sizing: border-box;
+}
+
+@charset "UTF-8";
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Open+Sans&display=swap');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap');
+</style>
+
+
+
+/*　共通部分
+------------------------------*/
+
+a{
+ text-decoration: none;
+}
+
+img{
+  max-width:100%;
+}
+
+.container{
+  width:1440px;
+ margin: 0 auto;
+}
+
+.container-2{
+  width:1440px;
+ margin: 0 auto;
+}
+
+#triangleDown{
+	width:0;
+	height:0;
+	border-right:6px solid transparent;
+	border-left:6px solid transparent;
+	border-top:12px solid black;
+  margin-top: -30px;
+  margin-bottom: -25px;
+  margin-left: 65px;
+}
+
+a{
+ text-decoration: none;
+}
+
+.img{
+  max-width:100%;
+}
+
+  a:link {
+    color:black;
+}
+
+  a:visited {
+    color:black;
+}
+
+
+/*　header
+------------------------------*/
+.logo{
+  width:460px;
+  margin-left: 30px;
+}
+
+.big-bg{
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url('./images/mein2.jpg');
+    height:770px;
+  margin-top: -30px;
+  object-fit: cover;
+}
+
+.big-bg-f{
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url('./images/furuyu_mein.jpg');
+  height:770px;
+  margin-top: -30px;
+  object-fit: cover;
+}
+
+.big-bg-s{
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url('./images/images_seiwa/seiwa_mein.jpg');
+  height:770px;
+  margin-top: -30px;
+  object-fit: cover;
+}
+
+.big-bg-k{
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url('./images/images_kannawa/kannawa_mein.jpg');
+  height:770px;
+  margin-top: -30px;
+  object-fit: cover;
+}
+
+.big-bg-fu{
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url('./images/images_fukuoka/fukuoka_mein.png');
+  height:770px;
+  margin-top: -30px;
+  object-fit: cover;
+}
+
+
+
+
+.navi img{
+ width:50px;
+ margin-top: 100px;
+}
+
+.navi {
+  display:flex;
+  margin-left: 30px;
+  list-style: none;
+  text-transform: capitalize;
+  font-size:28px;
+  margin-top: 3%;
+
+}
+
+.page-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header h1{
+  margin-top: 3%;
+}
+
+.navi li{
+  margin-right: 50px;
+  color:gray;
+ }
+
+ .navi li:hover{
+  color:rgba(255,199,50,1);
+  }
+
+.wrapper{
+  margin:0 auto;
+  padding:0 4%;
+}
+
+.wrapper-2{
+  margin:0 auto;
+}
+
+.home-content img{
+  margin-left:60%;
+  margin-top: 200px
+}
+
+.message{
+  margin:0 auto;
+  margin-top: 160px;
+}
+
+.message img{
+  width:900px;
+  /*border-bottom:solid 2px gray;*/
+  justify-content: center;
+  margin-left: 200px;
+  margin-bottom:0px;
+}
+
+.border-2 {
+  width:100%;
+  border: solid 0.5px gray;
+  margin-top: -5.8px;
+  margin-bottom: 190px;
+}
+
+.message h2{
+  font-size: 40px;
+  line-height: 72px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.message p{
+  font-size: 23px;
+  line-height: 50px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin:0 auto;
+  margin-bottom: 50px;
+}
+
+.question{
+  width:1000px;
+  margin:0 auto;
+  margin-bottom: 140px;
+  }
+
+.question h2{
+  font-size: 28px;
+  line-height: 49px;
+  letter-spacing: 3.7px;
+  text-align: center;
+  margin-bottom: 70px;
+  font-feature-settings: "palt";
+  }
+
+.taguchi-question{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.taguchi-question img{
+  margin-bottom: 12px;
+}
+
+.taguchi-fuki{
+  background-image: url('./images/fukidasi_tagu.jpg');
+  height:208px;
+  width:639px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.taguchi-fuki h3{
+  color: white;
+  font-size: 2.5em;
+  font-family: 'ヒラギノ明朝 ProN',serif;
+  font-feature-settings: "palt";
+  margin-top:45px;
+  margin-right: 13px;
+  font-feature-settings: "palt";
+}
+
+.hamada-question{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.hamada-question img{
+  margin-bottom: 12px;
+}
+
+.hamada-fuki{
+  background-image: url('./images/fukidasi_hamada.jpg');
+  height:208px;
+  width:639px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.hamada-fuki h3{
+  color: white;
+  font-size: 2.5em;
+  font-family: 'ヒラギノ明朝 ProN',serif;
+  font-feature-settings: "palt";
+  margin-top:45px;
+  margin-right: -55px;
+  font-feature-settings: "palt";
+}
+
+.okada-question {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.okada-question img{
+  margin-bottom: 12px;
+}
+
+.okada-fuki {
+  background-image: url('./images/fukidasi_okada.jpg');
+  height:208px;
+  width:639px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.okada-fuki h3{
+  color: white;
+  font-size: 2.5em;
+  font-family: 'ヒラギノ明朝 ProN',serif;
+  font-feature-settings: "palt";
+  margin-top:45px;
+  margin-right: 20px;
+  font-feature-settings: "palt";
+}
+
+.point h2{
+  font-size: 28px;
+  line-height: 49px;
+  letter-spacing: 3.7px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-feature-settings: "palt";
+}
+
+.point{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+
+
+
+.border {
+  margin:0 auto;
+  width:100%;
+  border: solid 0.5px gray;
+  margin-bottom:120px;
+}
+
+
+.area{
+  width:1150px;
+  margin:0 auto;
+}
+
+.area h3{
+  font-size: 40px;
+  line-height: 72px;
+  letter-spacing: 1.8px;
+  text-align: center;
+  margin:0 auto;
+  margin-bottom: 50px;
+  font-feature-settings: "palt";
+}
+
+.area-sorezore{
+  margin:0 auto;
+}
+
+/*　furuyu
+------------------------------*/
+
+ .furuyu{
+     background: url("./images/furuyu_hover.jpg") no-repeat;
+     width: 1129px;
+     height: 305px;
+     margin-bottom: 10px;
+ }
+ .furuyu a{
+     display: block;
+ }
+ .furuyu img{
+     border: none;
+ }
+ .furuyu a:hover{
+     background: none;
+ }
+ .furuyu a:hover img{
+     visibility: hidden;
+ }
+
+
+/*　seiwa
+------------------------------*/
+.seiwa{
+    background: url("./images/seiwa_hover.jpg") no-repeat;
+    width: 1129px;
+    height: 305px;
+    margin-bottom: 10px;
+}
+.seiwa a{
+    display: block;
+}
+.seiwa img{
+    border: none;
+}
+.seiwa a:hover{
+    background: none;
+}
+.seiwa a:hover img{
+    visibility: hidden;
+}
+
+/*　kannawa
+------------------------------*/
+.kannawa{
+    background: url("./images/kannawa_hover.jpg") no-repeat;
+    width: 1129px;
+    height: 305px;
+    margin-bottom: 10px;
+}
+.kannawa a{
+    display: block;
+}
+.kannawa img{
+    border: none;
+}
+.kannawa a:hover{
+    background: none;
+}
+.kannawa a:hover img{
+    visibility: hidden;
+}
+/*　kannawa
+------------------------------*/
+.fukuoka{
+    background: url("./images/fukuoka_hover.jpg") no-repeat;
+    width: 1129px;
+    height: 305px;
+    margin-bottom: 10px;
+}
+.fukuoka a{
+    display: block;
+}
+.fukuoka img{
+    border: none;
+}
+.fukuoka a:hover{
+    background: none;
+}
+.fukuoka a:hover img{
+    visibility: hidden;
+}
+
+/*　anketo
+------------------------------*/
+.anketo {
+  width:1000px;
+  height: 50px;
+  margin:220px auto;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+
+.anketo a{
+  font-size: 18px;
+  background: #0bd;
+  color:white;
+  border-radius:7px;
+  padding:19px 32px;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+  text-decoration: none;
+  margin-left: 370px;
+
+}
+
+.anketo a :hover{
+ opacity:0.5;
+ }
+
+ /*　furuyu
+ ------------------------------*/
+
+.grid {
+display: grid;
+gap:29px;
+width:1120px;
+margin:0 auto;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+margin-top: 180px;
+margin-bottom: 60px;
+}
+
+.topimage-furuyu img{
+width:1440px;
+}
+
+.item img{
+width:258px;
+margin-bottom: 20px;
+}
+
+.item h3{
+width:258px;
+font-size: 17px;
+margin-bottom: 18px;
+margin-left: -8px;
+font-family: 'Noto Sans JP',sans-serif;
+}
+
+.item h4{
+width:258px;
+font-size: 0.2rem;
+line-height: 23px;
+font-family: 'Noto Sans JP regular',sans-serif;
+font-feature-settings: "palt";
+  letter-spacing: 2px;
+}
+
+.topimage-furuyu{
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url('./images/furuyu_mein.jpg');
+  height:646px;
+  margin-top: -30px;
+  object-fit: cover;
+}
+
+.furuyu-title img{
+width:570px;
+margin-bottom:110px;
+margin-top: -255px;
+align-items: center;
+margin-left:435px;
+display: block;
+}
+
+.furuyu-title h2{
+font-size: 31px;
+line-height: 51px;
+text-align: center;
+margin-top: -430px;
+}
+
+.furuyu-title p{
+font-size: 18px;
+line-height: 34px;
+text-align: center;
+margin-top:20px;
+}
+
+/*　middle　area
+------------------------------*/
+
+.middle-area {
+  width:1122px;
+  margin: 120px auto 85px auto;
+  margin-bottom: 70px;
+}
+
+.middle-area-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.model-course {
+  width:576px;
+  line-height: 5px;
+}
+
+.model-course p {
+  font-size: 18px;
+  line-height: 85px;
+  margin:0 auto;
+  display: block;
+  padding:100,50,50,50;
+  font-size: 17px;
+  font-weight: normal;
+  margin-left: 50px;
+}
+
+.model-course img {
+  display: block;
+  margin:0 auto;
+  margin-left: 88px;
+}
+
+.area-map {
+  width:546px;
+}
+
+.iframe{
+  width:546px;
+}
+
+/*　bottom　area
+------------------------------*/
+.bottom-area{
+width:1122px;
+margin:0 auto;
+margin-bottom: 150px;
+display: flex;
+}
+
+.bottom-area-left {
+position: relative;
+margin-top: 3px;
+}
+
+.bottom-area-left div.text {
+    position: absolute;
+    color: white;
+    left: 80px;
+    top: 8px;
+    font-size: 15px;
+}
+
+.bottom-area-left div.iframe {
+  position: absolute;
+}
+
+.bottom-area-right{
+margin:0 auto;
+width:1220px;
+height:204px;
+border:3px solid #B620E0;
+display: flex;
+justify-content: space-between;
+ position: relative;
+}
+
+.bottom-area-right-s{
+margin:0 auto;
+width:1220px;
+height:204px;
+border:3px solid #6DD400;
+display: flex;
+justify-content: space-between;
+ position: relative;
+}
+
+.bottom-area-right-k{
+margin:0 auto;
+width:1220px;
+height:204px;
+border:3px solid #34B6EA;
+display: flex;
+justify-content: space-between;
+ position: relative;
+}
+
+.bottom-area-right-fu{
+margin:0 auto;
+width:1220px;
+height:204px;
+border:3px solid #E56B03;
+display: flex;
+justify-content: space-between;
+ position: relative;
+}
+
+.bottom-area-right img{
+height:320px;
+margin-right: 6px;
+margin-top:-69px;
+}
+
+.bottom-area-right-s img{
+height:240px;
+margin-right: 6px;
+margin-top:-42px;
+}
+
+.bottom-area-right-k img{
+height:240px;
+margin-right: 6px;
+margin-top:-42px;
+}
+
+.bottom-area-right-fu img{
+height:240px;
+margin-right: 6px;
+margin-top:-42px;
+}
+
+.bottom-area-right div.text {
+    position: absolute;
+    color:#B620E0;
+    line-height: 47px;
+    left: 118px;
+    top: 58px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.bottom-area-right-s div.text {
+    position: absolute;
+    color:#6DD400;
+    line-height: 47px;
+    left: 150px;
+    top: 58px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.bottom-area-right-k div.text {
+    position: absolute;
+    color:#34B6EA;
+    line-height: 47px;
+    left: 118px;
+    top: 58px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.bottom-area-right-fu div.text {
+    position: absolute;
+    color:#E56B03;
+    line-height: 47px;
+    left: 118px;
+    top: 58px;
+    font-size: 21px;
+    text-align: center;
+}
+
+
+
+ /*
+ ------------------------------*/
+.footer {
+  background-color: #FCC737;
+	width:100%;
+  height:80px;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  justify-content: space-between;
+  align-items: center;
+ 　white-space: nowrap;
+
+}
+
+.footer h4{
+  font-size: 12px;
+  margin-left: 4%;
+  color:white;
+}
+
+.footer h5{
+  margin-right:30px;
+  font-size: 13px;
+  color:white;
+  white-space: nowrap;
+　
+
+}
+
+.container-2 {
+  width:1140px;
+  margin: 0 auto;
+}
