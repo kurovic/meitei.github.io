@@ -75,7 +75,7 @@ a{
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  background-image: url('furuyu_images/mein2.jpg');
+  background-image: url('images/mein2.jpg');
     height:770px;
   margin-top: -30px;
   object-fit: cover;
@@ -95,7 +95,7 @@ a{
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  background-image: url('./images/images_seiwa/seiwa_mein.jpg');
+  background-image: url('images_seiwa/seiwa_mein.jpg');
   height:770px;
   margin-top: -30px;
   object-fit: cover;
@@ -105,7 +105,7 @@ a{
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  background-image: url('./images/images_kannawa/kannawa_mein.jpg');
+  background-image: url('images_kannawa/kannawa_mein.jpg');
   height:770px;
   margin-top: -30px;
   object-fit: cover;
@@ -115,7 +115,7 @@ a{
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  background-image: url('./images/images_fukuoka/fukuoka_mein.png');
+  background-image: url('images_fukuoka/fukuoka_mein.png');
   height:770px;
   margin-top: -30px;
   object-fit: cover;
